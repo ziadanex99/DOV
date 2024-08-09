@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                git 'https://github.com/ziadanex99/DOV'
+                git branch: 'master',
+                git 'https://github.com/abhijithvg/MavenBuild.git'
             }
         }
 
