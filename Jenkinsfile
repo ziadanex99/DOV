@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                git 'https://github.com/ziadanex99/DOV.git'
+                git 'https://github.com/ziadanex99/DOV'
             }
         }
 
